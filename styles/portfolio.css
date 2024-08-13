@@ -96,6 +96,11 @@ nav ul {
 main{
 max-width: 1140px;
 margin: 0 auto ;
+
+}
+main section{
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 /* about styles */
@@ -104,7 +109,7 @@ margin: 0 auto ;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 }
 
 .section-title{
@@ -138,3 +143,20 @@ margin: 0 auto ;
  
     
 }
+ .text-center{
+    text-align: center;
+ }
+ /* skill section style */
+ .skills-container{
+    display: flex;
+    gap: 24px;
+    /* padding: 30px; */
+ }
+ .skill-description{
+    color: #757575;
+ }
+ .skill{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+ }
