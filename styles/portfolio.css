@@ -160,3 +160,49 @@ main section{
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
     border-radius: 5px;
  }
+ /* resume styles */
+
+ .resume-container{
+    display: flex;
+    gap: 24px;
+ }
+ .resume-column{
+    /* display:inline-flex; */
+ }
+ experience-description , .experience-sub-title{
+    color: #757575;
+ }
+ .experience-sub-title{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 16px;
+ }
+ .resume hr{
+    margin: 30px 4px;
+ }
+ .resume-downlaod-cv{
+    margin-top: 46px;
+ }
+ /* footer style */
+.footer-flx{
+    display: flex;
+    gap: 120px;
+}
+footer{
+    padding: 130px 230px;
+    
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer textarea{
+    height:50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 7px 15px;
+    margin-bottom: 20px;
+    border: none;
+}
